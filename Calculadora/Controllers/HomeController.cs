@@ -15,6 +15,7 @@ namespace Calculadora.Controllers
 		private readonly ILogger<HomeController> _logger;
 
 
+
 		public HomeController(ILogger<HomeController> logger)
 		{
 			_logger = logger;
@@ -36,6 +37,7 @@ namespace Calculadora.Controllers
 		[HttpPost]
 		public IActionResult Index(string a)
 		{
+
 			return View();
 		}
 
