@@ -5,10 +5,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Calculadora2020.Models;
+using Calculadora.Models;
 
 
-namespace Calculadora2020.Controllers
+namespace Calculadora.Controllers
 {
 	public class HomeController : Controller
 	{
